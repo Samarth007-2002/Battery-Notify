@@ -11,9 +11,9 @@ This script monitors the battery level of your laptop and sends notifications us
 ## Usage
 
 1. Clone or download this repository to your local machine.
-2. Install the required libraries using pip: `pip install -r requirements.txt`.
+2. Install the required libraries using pip.
 3. Replace 'YOUR_API_KEY' with your actual Pushbullet API key in the `battery.py` file.
-4. Run the script: `python battery.py`.
+4. Run the script: `python battery.py` at test it.
 
 ## Adding to Startup
 
@@ -62,7 +62,6 @@ Replace `/path/to/batterycheck` with the actual path where you have saved the `b
 If cron is not installed:
 
 - **Linux**: Install cron using your package manager. For example, on Ubuntu, you can install it with `sudo apt-get install cron`.
-- **Windows**: You can create a shortcut to the script and place it in the Startup folder (`C:\Users\YourUsername\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`).
 - **macOS**: Consider using launchd or third-party tools like Lingon or cronie.
 
 Make sure to replace placeholders with actual file paths and configurations.
