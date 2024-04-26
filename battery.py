@@ -3,7 +3,7 @@ from pushbullet import Pushbullet
 import time
 import socket
 
-API_KEY = 'o.DTFfennZfVeWfHuiM5lrJLarkJEUJu9z'
+API_KEY = '<Your API KEY>'
 
 pb = Pushbullet(API_KEY)
 
