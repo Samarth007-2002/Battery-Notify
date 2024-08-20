@@ -1,6 +1,7 @@
 # Battery-Notify
 
 This script monitors the battery level of your laptop and sends notifications to your mobile using Pushbullet when the battery level is low or reaches a certain threshold. It also checks for internet connectivity to avoid errors.
+Note:- I just made this for fun as I was lazy to check up on my laptop after putting up for charge and also didnt want it to degrae ;D
 ## Requirements
 
 - Python 3
